@@ -25,7 +25,7 @@
 
         <section>
 
-            <textarea class="textarea" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <textarea class="textArea" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
             
             <div>
 
@@ -35,8 +35,9 @@
 
             <div class="botoes">
 
-                <button class="btncript">Criptografrar</button>
-                <button class="btndescript">Descriptografar</button>
+                <button class="btncript" onclick="btnEncriptar()">Criptografrar</button>
+                
+                <button class="btndescript" onclick="btnDesencriptar()">Descriptografar</button>
             
              </div>    
 
@@ -46,7 +47,7 @@
 
             <textarea class="mensagem" cols="15" rows="10"></textarea>
 
-            <button class="btncopiar"> Copiar </button>
+            <button class="btncopiar" onclick="copiarTexto()"> Copiar </button>
         
         </section>
 
@@ -59,7 +60,6 @@
 </body>
 
 <script src="script.js"></script>
-
 
 
 </html>

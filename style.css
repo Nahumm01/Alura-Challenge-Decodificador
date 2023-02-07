@@ -8,6 +8,7 @@ line-height: 150%;
 
 }
 
+
 .logoAlura {
 
    margin: 10px;
@@ -16,6 +17,7 @@ line-height: 150%;
    
 
 }
+
 
 main {
 
@@ -26,7 +28,7 @@ main {
 }
 
 
-.textarea {
+.textArea {
 
     border: none;
     color: #0A3871;
@@ -35,6 +37,7 @@ main {
     
 
 }
+
 
 ::placeholder {color: #0A3871;}
     .textarea:focus {
@@ -60,11 +63,13 @@ main {
 
 }
 
+
 .mensagem:focus {
 
     outline: none;
 
 }
+
 
 .botoes {
 
@@ -90,6 +95,7 @@ main {
 
 }
 
+
 .btndescript {
 
     background-color: #D8DFE8;
@@ -105,6 +111,7 @@ main {
 
 }
 
+
 .btncopiar {
 
     background-color: #E5E5E5;
@@ -117,10 +124,11 @@ main {
     font-weight: bold;
     font-size: 24px;
     position: absolute;
-    margin-top: 399px;
+    margin-top: 408px;
     margin-left: 120px;
 
 }
+
 
 .informacao {
 
